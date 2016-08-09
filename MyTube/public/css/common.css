@@ -1,0 +1,10 @@
+.list {
+  color: #000; }
+
+.ul-list {
+  text-decoration: none;
+  list-style: none; }
+  .ul-list li:hover {
+    color: blue; }
+
+/*# sourceMappingURL=common.css.map */
