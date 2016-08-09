@@ -1,10 +1,13 @@
 .list {
   color: #000; }
-
-.ul-list {
-  text-decoration: none;
-  list-style: none; }
-  .ul-list li:hover {
-    color: blue; }
+  .list .ul-list {
+    text-decoration: none;
+    list-style: none;
+    width: 100%; }
+    .list .ul-list li:hover {
+      color: blue; }
+  .list .footer-list li {
+    color: rgba(255, 255, 255, 0.52);
+    display: inline-block; }
 
 /*# sourceMappingURL=common.css.map */
