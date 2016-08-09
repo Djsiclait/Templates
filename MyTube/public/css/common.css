@@ -6,8 +6,12 @@
     width: 100%; }
     .list .ul-list li:hover {
       color: blue; }
-  .list .footer-list li {
-    color: rgba(255, 255, 255, 0.52);
-    display: inline-block; }
+  .list .footer-list {
+    list-style: disc;
+    margin: 0 0 0 75%; }
+    .list .footer-list li {
+      margin: 0 0 0 5px;
+      color: rgba(255, 255, 255, 0.52);
+      display: inline-block; }
 
 /*# sourceMappingURL=common.css.map */
