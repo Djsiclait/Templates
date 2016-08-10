@@ -2,7 +2,7 @@
 
 <body>
 
-<#include "/navbar.ftl">
+<#include "/banner.ftl">
 
 <#include "/carousel.ftl">
 

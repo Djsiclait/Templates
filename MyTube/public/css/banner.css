@@ -1,0 +1,31 @@
+#banner {
+  margin: 0;
+  padding: 0;
+  background-color: #ffb3b3;
+  color: white;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace; }
+  @media screen and (max-device-width: 700) {
+    #banner {
+      font-size: 50px; } }
+  #banner .banner-item {
+    display: inline-block;
+    margin: 8px 0 8px 5px; }
+  #banner #searchbox {
+    margin-left: 55%; }
+    @media screen and (max-device-width: 700px) {
+      #banner #searchbox {
+        margin-left: 33%; } }
+    #banner #searchbox .form #searchtext {
+      padding-left: 10px;
+      border-radius: 50px;
+      height: 20px; }
+      #banner #searchbox .form #searchtext:focus {
+        outline: none; }
+    #banner #searchbox .form .input-btn {
+      border-radius: 50px;
+      background-color: #ff6666;
+      color: #000000;
+      background-size: 25px 25px; }
+
+/*# sourceMappingURL=banner.css.map */
