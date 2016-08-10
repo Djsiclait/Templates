@@ -3,25 +3,33 @@ body {
   padding: 0; }
 
 .list {
-  color: #000; }
+  color: #000;
+  width: 100%; }
   .list .ul-list {
     text-decoration: none;
-    list-style: none;
-    width: 100%; }
+    list-style: none; }
     .list .ul-list li:hover {
       color: blue; }
-  .list .footer-list {
-    list-style: circle;
-    margin: 0 0 0 82%; }
-    .list .footer-list li {
-      margin: 5px 0 0 5px;
-      display: inline-block; }
-      .list .footer-list li a {
-        color: rgba(255, 255, 255, 0.52);
-        text-decoration: none; }
-        .list .footer-list li a:visited {
-          color: rgba(27, 28, 255, 0.52); }
-        .list .footer-list li a:hover {
-          color: blue; }
+  @media screen and (min-device-width: 700px) {
+    .list .footer-list {
+      margin: 0 0 0 82%; } }
+  @media screen and (max-device-width: 700px) {
+    .list .footer-list {
+      margin: 0 0 0 70%; } }
+  .list .footer-list li {
+    display: inline-block; }
+    @media screen and (min-device-width: 700px) {
+      .list .footer-list li {
+        margin: 5px 0 0 5px; } }
+    @media screen and (max-device-width: 700px) {
+      .list .footer-list li {
+        margin: 5px 0 0 15px; } }
+    .list .footer-list li a {
+      color: rgba(255, 255, 255, 0.52);
+      text-decoration: none; }
+      .list .footer-list li a:visited {
+        color: rgba(27, 28, 255, 0.52); }
+      .list .footer-list li a:hover {
+        color: blue; }
 
 /*# sourceMappingURL=common.css.map */
