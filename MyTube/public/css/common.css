@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  padding: 0; }
+
 .list {
   color: #000; }
   .list .ul-list {
@@ -7,11 +11,17 @@
     .list .ul-list li:hover {
       color: blue; }
   .list .footer-list {
-    list-style: disc;
-    margin: 0 0 0 75%; }
+    list-style: circle;
+    margin: 0 0 0 82%; }
     .list .footer-list li {
-      margin: 0 0 0 5px;
-      color: rgba(255, 255, 255, 0.52);
+      margin: 5px 0 0 5px;
       display: inline-block; }
+      .list .footer-list li a {
+        color: rgba(255, 255, 255, 0.52);
+        text-decoration: none; }
+        .list .footer-list li a:visited {
+          color: rgba(27, 28, 255, 0.52); }
+        .list .footer-list li a:hover {
+          color: blue; }
 
 /*# sourceMappingURL=common.css.map */
