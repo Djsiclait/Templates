@@ -4,7 +4,8 @@
 
 <#include "/banner.ftl">
 
-<#include "/carousel.ftl">
-
+<div id="container">
+    <#include "/carousel.ftl">
+</div>
 <#include "/footer.ftl">
 

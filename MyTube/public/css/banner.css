@@ -1,4 +1,6 @@
 #banner {
+  position: fixed;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: #ff171f;
