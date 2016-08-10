@@ -35,8 +35,6 @@
       #banner #searchbox .form .input-btn {
         border-radius: 20px 0 20px 0;
         width: 40px;
-        background-color: #bab3b9;
-        color: #000000;
         background-size: 25px 25px; }
         @media screen and (max-device-width: 700px) {
           #banner #searchbox .form .input-btn {
