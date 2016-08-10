@@ -32,8 +32,6 @@
           #banner #searchbox .form #searchtext {
             height: 50px;
             font-size: 25px; } }
-        #banner #searchbox .form #searchtext:focus {
-          outline: none; }
       #banner #searchbox .form .input-btn {
         border-radius: 20px 0 20px 0;
         width: 40px;
