@@ -3,33 +3,31 @@ body {
   padding: 0; }
 
 .list {
-  color: #000;
-  width: 100%; }
+  margin: 0;
+  padding: 0; }
   .list .ul-list {
-    text-decoration: none;
+    margin: 0;
+    padding: 0;
     list-style: none; }
-    .list .ul-list li:hover {
-      color: blue; }
-  @media screen and (min-device-width: 700px) {
-    .list .footer-list {
-      margin: 0 0 0 82%; } }
-  @media screen and (max-device-width: 700px) {
-    .list .footer-list {
-      margin: 0 0 0 70%; } }
-  .list .footer-list li {
-    display: inline-block; }
-    @media screen and (min-device-width: 700px) {
-      .list .footer-list li {
-        margin: 5px 0 0 5px; } }
-    @media screen and (max-device-width: 700px) {
-      .list .footer-list li {
-        margin: 5px 0 0 15px; } }
-    .list .footer-list li a {
-      color: rgba(255, 255, 255, 0.52);
-      text-decoration: none; }
-      .list .footer-list li a:visited {
-        color: rgba(27, 28, 255, 0.52); }
-      .list .footer-list li a:hover {
+    .list .ul-list li {
+      display: inline-block;
+      margin: 0 0 0 5px; }
+      .list .ul-list li:hover {
         color: blue; }
+
+.form .text-input {
+  width: 300px;
+  float: left; }
+.form .input-btn {
+  float: right;
+  margin-left: 5px;
+  cursor: pointer; }
+.form .mini-btn {
+  width: 25px;
+  height: 25px; }
+  @media screen and (max-device-width: 700px) {
+    .form .mini-btn {
+      width: 45px;
+      height: 45px; } }
 
 /*# sourceMappingURL=common.css.map */

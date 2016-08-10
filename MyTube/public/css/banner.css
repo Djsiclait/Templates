@@ -1,31 +1,48 @@
 #banner {
   margin: 0;
   padding: 0;
-  background-color: #ffb3b3;
+  background-color: #ff171f;
   color: white;
   font-size: 18px;
-  font-family: "Courier New", Courier, monospace; }
-  @media screen and (max-device-width: 700) {
+  font-family: "Agency FB", Courier, monospace; }
+  @media screen and (max-device-width: 700px) {
     #banner {
       font-size: 50px; } }
   #banner .banner-item {
     display: inline-block;
     margin: 8px 0 8px 5px; }
+  #banner #navbar li {
+    display: inline-block; }
   #banner #searchbox {
-    margin-left: 55%; }
+    margin-left: 60%; }
     @media screen and (max-device-width: 700px) {
       #banner #searchbox {
-        margin-left: 33%; } }
-    #banner #searchbox .form #searchtext {
-      padding-left: 10px;
-      border-radius: 50px;
-      height: 20px; }
-      #banner #searchbox .form #searchtext:focus {
-        outline: none; }
-    #banner #searchbox .form .input-btn {
-      border-radius: 50px;
-      background-color: #ff6666;
-      color: #000000;
-      background-size: 25px 25px; }
+        margin-left: 25%; } }
+    #banner #searchbox .form {
+      width: 380px; }
+      #banner #searchbox .form input {
+        display: inline-block; }
+      #banner #searchbox .form #searchtext {
+        padding-left: 10px;
+        border-radius: 50px;
+        height: 20px; }
+        @media screen and (max-device-width: 700px) {
+          #banner #searchbox .form #searchtext {
+            height: 50px;
+            font-size: 25px; } }
+        #banner #searchbox .form #searchtext:focus {
+          outline: none; }
+      #banner #searchbox .form .input-btn {
+        border-radius: 20px 0 20px 0;
+        width: 40px;
+        background-color: #bab3b9;
+        color: #000000;
+        background-size: 25px 25px; }
+        @media screen and (max-device-width: 700px) {
+          #banner #searchbox .form .input-btn {
+            border-radius: 45px 0 45px 0;
+            width: 60px; } }
+        #banner #searchbox .form .input-btn:hover {
+          background-color: #868185; }
 
 /*# sourceMappingURL=banner.css.map */
