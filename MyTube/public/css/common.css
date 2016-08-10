@@ -15,6 +15,11 @@ body {
       .list .ul-list li:hover {
         color: blue; }
 
+.form input {
+  padding-left: 10px; }
+.form .half {
+  width: 130px;
+  clear: both; }
 .form .text-input {
   width: 300px;
   float: left; }

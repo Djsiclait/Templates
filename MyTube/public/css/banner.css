@@ -26,7 +26,6 @@
       #banner #searchbox .form input {
         display: inline-block; }
       #banner #searchbox .form #searchtext {
-        padding-left: 10px;
         border-radius: 50px;
         height: 20px; }
         @media screen and (max-device-width: 700px) {
