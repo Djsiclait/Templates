@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(90, 90, 90, 0.19); }
+
+.list {
+  margin: 0;
+  padding: 0; }
+  .list .ul-list {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .list .ul-list li {
+      display: inline-block;
+      margin: 0 0 0 5px; }
+      .list .ul-list li:hover {
+        color: blue; }
+
+.form input {
+  padding-left: 10px; }
+  .form input:focus {
+    outline: none; }
+.form .half {
+  width: 130px;
+  clear: both; }
+.form .text-input {
+  width: 300px;
+  float: left; }
+.form .input-btn {
+  float: right;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #bab3b9; }
+.form .mini-btn {
+  width: 25px;
+  height: 25px; }
+  @media screen and (max-device-width: 700px) {
+    .form .mini-btn {
+      width: 45px;
+      height: 45px; } }
+
+#container {
+  height: 100%;
+  padding-top: 75px; }
+  @media screen and (max-device-width: 700px) {
+    #container {
+      padding-top: 112px; } }
+
+/*# sourceMappingURL=common.css.map */
