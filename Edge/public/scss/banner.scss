@@ -1,0 +1,64 @@
+@mixin banner-font {
+  color: white;
+  font-size: 20px;
+  @media screen and (max-device-width: 700px){
+    font-size: 50px;
+  }
+  font-family: "Agency FB", Courier, monospace;
+};
+
+$mini-icon: 25px;
+
+#banner {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 23, 31);
+  @include banner-font;
+  .banner-item {
+    display: inline-block;
+    margin: 8px 0 8px 5px;
+  }
+
+  #navbar {
+    li {
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+
+  #searchbox {
+    margin-left: 60%;
+    @media screen and (max-device-width: 700px) {
+      margin-left: 25%;
+    }
+    .form {
+      width: 380px;
+      input{
+        display: inline-block;
+      }
+      #searchtext {
+        border-radius: 50px;
+        height: 20px;
+        @media screen and (max-device-width: 700px) {
+          height: 50px;
+          font-size: 25px;
+        }
+      }
+      .input-btn {
+        border-radius: 20px 0 20px 0;
+        width: 40px;
+        @media screen and (max-device-width: 700px) {
+          border-radius: 45px 0 45px 0;
+          width: 60px;
+        }
+        //background: url("") no-repeat scroll 0 0 transparent;
+        background-size: $mini-icon $mini-icon;
+        &:hover {
+          background-color: rgb(134, 129, 133);
+        }
+      }
+    }
+  }
+}

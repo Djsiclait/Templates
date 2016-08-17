@@ -1,0 +1,46 @@
+#banner {
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ff171f;
+  color: white;
+  font-size: 20px;
+  font-family: "Agency FB", Courier, monospace; }
+  @media screen and (max-device-width: 700px) {
+    #banner {
+      font-size: 50px; } }
+  #banner .banner-item {
+    display: inline-block;
+    margin: 8px 0 8px 5px; }
+  #banner #navbar li {
+    display: inline-block;
+    margin-left: 10px; }
+  #banner #searchbox {
+    margin-left: 50%; }
+    @media screen and (max-device-width: 700px) {
+      #banner #searchbox {
+        margin-left: 5%; } }
+    #banner #searchbox .form {
+      width: 380px; }
+      #banner #searchbox .form input {
+        display: inline-block; }
+      #banner #searchbox .form #searchtext {
+        border-radius: 50px;
+        height: 20px; }
+        @media screen and (max-device-width: 700px) {
+          #banner #searchbox .form #searchtext {
+            height: 50px;
+            font-size: 25px; } }
+      #banner #searchbox .form .input-btn {
+        border-radius: 20px 0 20px 0;
+        width: 40px;
+        background-size: 25px 25px; }
+        @media screen and (max-device-width: 700px) {
+          #banner #searchbox .form .input-btn {
+            border-radius: 45px 0 45px 0;
+            width: 60px; } }
+        #banner #searchbox .form .input-btn:hover {
+          background-color: #868185; }
+
+/*# sourceMappingURL=banner.css.map */

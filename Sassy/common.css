@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 230, 255, 0.5); }
+  @media screen and (max-device-width: 700px) {
+    body {
+      background-image: url("petals.gif-c200");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%; } }
+
+.list {
+  margin: 0;
+  padding: 0; }
+  .list .ul-list {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .list .ul-list li {
+      display: inline-block;
+      margin: 0 0 0 5px; }
+
+.form .half {
+  width: 150px;
+  border-radius: 50px;
+  padding-left: 10px; }
+  .form .half:focus {
+    outline: none; }
+.form .text-input {
+  width: 300px;
+  border-radius: 50px;
+  padding-left: 10px; }
+  .form .text-input:focus {
+    outline: none; }
+.form .input-btn {
+  float: right;
+  cursor: pointer; }
+  .form .input-btn:focus {
+    outline: none; }
+.form .mini-btn {
+  width: 25px;
+  height: 25px; }
+  .form .mini-btn:hover {
+    width: 30px;
+    height: 30px; }
+
+.frame {
+  border: 4px solid black;
+  height: 300px; }
+
+#banner {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #ffb3b3;
+  color: white;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace; }
+  @media screen and (max-device-width: 700px) {
+    #banner {
+      font-size: 45px; } }
+  #banner .banner-item {
+    display: inline-block;
+    margin: 8px 0 8px 5px; }
+  #banner #searchbox {
+    margin-left: 55%; }
+    @media screen and (max-device-width: 700px) {
+      #banner #searchbox {
+        margin-left: 10%; } }
+    #banner #searchbox .form #searchtext {
+      height: 20px; }
+      @media screen and (max-device-width: 700px) {
+        #banner #searchbox .form #searchtext {
+          height: 70px;
+          font-size: 50px; } }
+    #banner #searchbox .form .input-btn {
+      border-radius: 50%;
+      margin-left: 5px;
+      background-color: #ff6666;
+      background: url("search-icon.png") no-repeat scroll 0 0 transparent;
+      color: #000000;
+      background-size: 25px 25px; }
+      @media screen and (max-device-width: 700px) {
+        #banner #searchbox .form .input-btn {
+          width: 55px;
+          height: 55px; } }
+
+#container {
+  witdh: 100%;
+  padding-top: 5%; }
+  @media screen and (max-device-width: 700px) {
+    #container {
+      padding-top: 14%; } }
+
+#register {
+  margin: auto;
+  padding-top: 2%;
+  width: 400px;
+  height: 150px;
+  background-color: rgba(255, 179, 179, 0.9);
+  border-radius: 0 0 50px 50px;
+  border: 4px solid #ff4dff; }
+  @media screen and (max-device-width: 700px) {
+    #register {
+      width: 800px;
+      height: 370px; } }
+  #register .half {
+    margin: 20px 0 10px 20px;
+    display: inline-block; }
+    @media screen and (max-device-width: 700px) {
+      #register .half {
+        display: block;
+        padding-left: 20px;
+        margin: 0 0 20px 38px;
+        width: 450px;
+        height: 60px;
+        font-size: 50px; } }
+  #register .text-input {
+    margin: 10px auto 10px;
+    display: block; }
+    @media screen and (max-device-width: 700px) {
+      #register .text-input {
+        padding-left: 20px;
+        margin: 0 auto 20px;
+        width: 700px;
+        height: 60px;
+        font-size: 50px; } }
+  #register .input-btn {
+    float: none;
+    margin: 10px auto 10px;
+    display: block;
+    border-radius: 50px;
+    background-color: rgba(255, 77, 255, 0.5);
+    color: white;
+    font-size: 16px;
+    font-family: "Courier New", Courier, monospace; }
+    @media screen and (max-device-width: 700px) {
+      #register .input-btn {
+        font-size: 40px; } }
+    #register .input-btn:hover {
+      background-color: green; }
+    @media screen and (max-device-width: 700px) {
+      #register .input-btn {
+        width: 250px; } }
+
+#profile {
+  margin: 0 20px 0 20px;
+  max-height: 340px; }
+  #profile #bios {
+    width: 25%;
+    display: inline-block;
+    padding: 10px;
+    float: left; }
+    #profile #bios div {
+      max-height: 150px;
+      display: inline-block;
+      width: 98%; }
+    #profile #bios .frame {
+      border: 4px solid #ff99ff; }
+    #profile #bios .profile-frame {
+      border-radius: 50px 50px 0 0;
+      margin-bottom: 5px; }
+      #profile #bios .profile-frame #picture {
+        margin: 25px 100px 25px 100px;
+        width: 100px;
+        height: 100px;
+        border: 4px solid #ff99ff;
+        border-radius: 10px;
+        background-image: url("http://placekitten.com/100/100"); }
+    #profile #bios .caption {
+      border-radius: 0 0 50px 50px; }
+      #profile #bios .caption p {
+        margin-left: 20px; }
+  #profile #description {
+    width: 69%;
+    height: 315px;
+    display: inline-block;
+    padding: 10px;
+    float: right; }
+    #profile #description .frame {
+      padding: 10px 10px 0 10px;
+      width: 99%;
+      height: 98%;
+      background-color: rgba(255, 153, 153, 0.8);
+      border: 4px solid #ff9999;
+      border-radius: 50px; }
+      #profile #description .frame .paper {
+        padding: 15px 10px 0 10px;
+        height: 275px;
+        background-color: rgba(255, 230, 255, 0.5);
+        border: 4px solid #ff9999;
+        border-radius: 50px; }
+
+/*# sourceMappingURL=common.css.map */

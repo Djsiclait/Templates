@@ -1,0 +1,35 @@
+@mixin round-edges($tl, $tr, $lr, $ll){
+	border-radius: $tl $tr $lr $ll;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(204, 230, 255, 0.3);
+}
+
+.list{
+	margin: 0;
+	padding: 0;
+	.ul-list{
+		margin: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.nav-list{
+		li{
+			display: inline-block;
+			margin-left: 10px;
+		}
+	}
+}
+
+#banner{
+	border: 4px solid blue;
+	height: 55px;
+	position: fixed;
+	@include round-edges(0, 0, 10px, 0);
+	.banner-item{
+		display: inline-block;
+	}
+}

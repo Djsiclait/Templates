@@ -1,0 +1,63 @@
+@mixin rounded {
+  border-radius: 50px;
+}
+
+@mixin leafed($tl, $tr, $lr, $ll) {
+  border-radius: $tl $tr $lr $ll;
+}
+
+#register{
+  width: 350px;
+  height: 150px;
+  @media screen and (max-device-width: 700px) {
+    width: 700px;
+    height: 370px;
+  }
+  margin: auto;
+  padding-left: 10px;
+  border: 4px solid rgb(255, 23, 31);
+  background-color: rgba(255, 23, 31, 0.5);
+  @include leafed(0, 30px, 0, 30px);
+  .register-form{
+    .half{
+      margin: 10px auto 5px;
+      clear: none;
+      @include rounded;
+      @media screen and (max-device-width: 700px) {
+        margin: 20px auto 10px;
+        height: 50px;
+        width: 300px;
+        font-size: 25px;
+      }
+    }
+    .text-input{
+      display: block;
+      margin: 5px auto 5px;
+      float: none;
+      @include rounded;
+      @media screen and (max-device-width: 700px) {
+        height: 50px;
+        width: 500px;
+        font-size: 25px;
+        margin: 10px auto 10px;
+      }
+    }
+    .input-btn{
+      display: block;
+      width: 77px;
+      margin: 5px auto 0;
+      float: none;
+      @include leafed(30px, 0, 30px, 0);
+      &:hover {
+        background-color: rgb(27, 206, 9);
+      }
+      @media screen and (max-device-width: 700px) {
+        @include leafed(45px, 0, 45px, 0);
+        height: 50px;
+        width: 150px;
+        font-size: 25px;
+        margin: 5px auto 0;
+      }
+    }
+  }
+}
