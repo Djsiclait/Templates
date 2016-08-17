@@ -25,11 +25,19 @@ body{
 }
 
 #banner{
-	border: 4px solid blue;
-	height: 55px;
+	width: 77%;
+	border: 4px solid rgb(26, 102, 255);
+	height: 35px;
 	position: fixed;
 	@include round-edges(0, 0, 10px, 0);
 	.banner-item{
 		display: inline-block;
 	}
+	#searchbox{
+		margin-left: 69%;
+	}
+}
+
+#container{
+	padding-top: 2%;
 }
